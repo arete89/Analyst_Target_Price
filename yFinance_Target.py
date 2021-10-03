@@ -11,7 +11,7 @@ for item in tickers:
               'modules=upgradeDowngradeHistory,recommendationTrend,' \
               'financialData,earningsHistory,earningsTrend,industryTrend&' \
               'corsDomain=finance.yahoo.com'
-
+    #Change region for those who want non-US stocks
     headers = {
         'User-Agent': ''}
     #Add your own user agent address - Just google it on your browser.
